@@ -4,7 +4,7 @@ const multer = require('multer');
 const path = require('path');
 const fs = require('fs');
 const cors = require('cors');
-const geojsonValidation = require('geojson-validation');
+// const geojsonValidation = require('geojson-validation');
 
 const app = express();
 const upload = multer({ dest: 'uploads/' });
